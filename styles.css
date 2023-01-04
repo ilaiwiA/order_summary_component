@@ -25,7 +25,7 @@ body {
     margin: 1em;
     border-radius: 22px;
     overflow: hidden;
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .img_container img{
@@ -36,7 +36,7 @@ body {
 .order_content {
     text-align: center;
     padding: 1em;
-    margin: 1.5em 0;
+    margin: 1.5em 3em;
     font-size: 1em;
     font-family: var(--ff-hat);
 
@@ -45,6 +45,7 @@ body {
 }
 
 .order_content h1 {
+    font-size: 1.5em;
     font-weight: 900;
 }
 
@@ -67,6 +68,7 @@ body {
 }
 
 #order_price {
+    font-size: 1;
     font-weight: 500;
 }
 
@@ -86,7 +88,7 @@ body {
     font-size: 1em;
 }
 
-footer p{
+footer p {
     color: var(--desaturated__blue);
     font-weight: 900;
 }
