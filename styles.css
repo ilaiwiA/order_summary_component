@@ -23,10 +23,9 @@ body {
 
 .container {
     background-color: white;
-    margin: 1em;
     border-radius: 22px;
     overflow: hidden;
-    max-width: 400px;
+    max-width: 425px;
 }
 
 .img_container img{
@@ -36,11 +35,10 @@ body {
 
 .order_content {
     text-align: center;
-    padding: 1em;
-    margin: 1.5em 3em;
+    margin: 2.5em;
+
     font-size: 1em;
     font-family: var(--ff-hat);
-
     display: grid;
     gap: 1.75em;
 }
@@ -61,6 +59,7 @@ body {
     align-items: center;
     background-color: var(--very__pale__blue);
     border-radius: .5em;
+    column-gap: 2.5em;
     padding: 1em;
 }
 
