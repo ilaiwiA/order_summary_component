@@ -10,6 +10,7 @@
     --desaturated__blue: hsl(224, 23%, 55%);
     --dark__blue: hsl(223, 47%, 23%);
     --pale__blue: hsl(225, 100%, 94%);
+    --slightly_pale_blue: hsla(245, 75%, 52%, 0.75);
     --bright__blue: hsl(245, 75%, 52%);
 }
 
@@ -75,6 +76,7 @@ body {
 .order_plan_container a {
     padding: 1em 0;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .order_content button {
@@ -86,11 +88,17 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 1em;
+    cursor: pointer;
+}
+
+.order_content button:hover {
+    background-color: var(--slightly_pale_blue);
 }
 
 footer p {
     color: var(--desaturated__blue);
     font-weight: 900;
+    cursor: pointer;
 }
 
 @media screen and (min-width:600px) {
